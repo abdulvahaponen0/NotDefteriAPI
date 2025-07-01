@@ -1,0 +1,14 @@
+@NotDefteriAPI_HostAddress = http://localhost:5273
+
+GET {{NotDefteriAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+POST {{NotDefteriAPI_HostAddress}}/api/NotDefteri/NotEkle
+Content-Type: application/json
+{
+  id=1,
+  Baslik:"fdd",
+  Tarih:"2025-04-22T00:00:00",
+  NotDegeri:"dsdsd"
+}
